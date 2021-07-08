@@ -1,0 +1,31 @@
+{
+  "name": "cinema_ticketing_sqlserver",
+  "version": "1.0.0",
+  "description": "cinema ticketing app with node js , express and myaql",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muyah/movie_app_with_sql.git"
+  },
+  "author": "Muyah",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "uuid": "^8.3.2"
+  },
+  "bugs": {
+    "url": "https://github.com/Muyah/movie_app_with_sql/issues"
+  },
+  "homepage": "https://github.com/Muyah/movie_app_with_sql#readme"
+}
